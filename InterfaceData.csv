@@ -1,0 +1,78 @@
+﻿ID,Interface,System,Topics,Sub-Topics,In AECOM Matrix?,TRW to design,TRW to provide,TRW to install,Other to design,Other to provide,Other to install, ,Interface Reference,Resolution DF,Relationship,Remark
+#1,ORLE,TRW,Track Alignment,"Interface point coordinates N, E",TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0096,,,
+#2,ORLE,TRW,Track Alignment,Interface point Rail Level,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0096,,,
+#3,ORLE,TRW,Track Alignment,Interface point Track Bearing,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0096,,,
+#4,ORLE,TRW,Trackwork,Welding Points,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0096,AMAI E6,,
+#5,ORLE,TRW,Trackwork,Insulated Rail Joint,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0096,,,
+#6,ORLE,CRS,Conductor Rail,Ramp location,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0096/106,,,
+#7,ORLE,CRS,Conductor Rail,Bridgable / Non-bridgable gap Values,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0106,,,
+#8,ORLE,PSY,Conductor Rail,DC Section Diagram,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,,ORL-OS-RFI-0122,,,
+#9,ORLE,AR,OR13 Station,Platform Level Layout / Section,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0097,,,
+#10,ORLE,AR,OR13 Station,Back of House Layout / Section,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0097,,,
+#11,ORLE,EM,OR13 Station,Building Services Layout / Section,TRUE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0097,,,
+#12,ORLE,AR,Depot (East),Stabling building architectural layout,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0098,,,
+#13,ORLE,SE,Depot (East),Stabling building structural joints layout,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0098,,,
+#14,ORLE,DR,Depot (East),Stabling building drainage layout,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0098,,,
+#15,ORLW,AL,Track Alignment,Alignment geometric design validation,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,,Email / Transmittal,,,
+#16,ORLW,AL,Track Alignment,Cant proposal,TRUE,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,,Email / Transmittal,,,
+#17,ORLW,AL,Track Alignment,Curved platform review,TRUE,FALSE,FALSE,TRUE,FALSE,TRUE,FALSE,,,No curve near platforms detected.,#10,
+#18,ORLW,SE,Interface between trackbed and tunnel 1st stage,Shear connector requirement,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),TRW proposed no shear key in tunnels. Only in depot,,
+#19,ORLW,SE,Interface between trackbed and tunnel 1st stage,Shear connector sizing,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),TRW proposed no shear key in tunnels. Only in depot,,
+#20,ORLW,SE,Interface between trackbed and tunnel 1st stage,Shear connector installation method,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),TRW proposed no shear key in tunnels. Only in depot,,
+#21,ORLW,SE,Interface between trackbed and depot floor,Shear connector requirement,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),TRW proposed no shear key in tunnels. Only in depot,,
+#22,ORLW,SE,Interface between trackbed and depot floor,Shear connector sizing,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),TRW proposed no shear key in tunnels. Only in depot,#13,
+#23,ORLW,SE,Interface between trackbed and depot floor,Shear connector installation method,TRUE,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),TRW proposed no shear key in tunnels. Only in depot,,
+#24,ORLW,SE,Trackbed geometry - Mainline (Stations & BT),Minimum thickness,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),CIV to provide info,,Circulate drgs to SE and request XSEC from station that shows base slab
+#25,ORLW,SE,Trackbed geometry - Depot,Minimum thickness,TRUE,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),CIV to provide info,#13,Circulate drgs to SE and request XSEC from station that shows base slab
+#26,ORLW,SE,Concrete strength ,Of depot floor and tunnel floor,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-0023,CIV to provide info,,
+#27,ORLW,AL/BT,Envelopes & Clearances,Track-Tunnel Centerline Offset,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0017,Waiting for official response from AECOM,,TRW to eventually validate the offset values
+#28,ORLW,AL/AR,Envelopes & Clearances,Platform height & Offset,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,,TRW shared Trackform Typical Section drawings to CIV for review.,,AR to confirm if these values are applied to all stations.
+#29,ORLW,AL/AR,Envelopes & Clearances,Curved track and throw effect in stations,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Discussed verbally / ORL-OS-RFI-0126,"CIV to demonstrate that clearance checks are made in stations, BT and IVS",,
+#30,ORLW,BT,Service Walkways,Arrangement (LHS / RHS) in tunnel,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Email exchange with GFE on 6 May 25,Follow TRW's walkway drawings.,,"CIV designed, TRW created the official drawing."
+#31,ORLW,AR/SE,Service Walkways,Connection of walkway in tunnel and station BOH,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,RFI-RT-0006 / Email exchange with DPA on 13 May 25,Drawings partially shared,,
+#32,ORLW,AR/SE/EM,Service Walkways,Connection of walkway at underground adit (if any),TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,RFI-RT-0006,Drawings partially shared,,Pending info from AECOM on some IVS
+#33,ORLW,BT,Service Walkways,Walkway height from Top of Rail,TRUE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),Same as ORLE (1110mm). Typ. Sections drg circulated to CIV. CIV to confirm no issues.,,
+#34,ORLW,DR,Tunnel-Track Drainage,Typical tunnel drainage catchpits,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0012,,,
+#35,ORLW,DR,Tunnel-Track Drainage,Typical tunnel drainage pipes,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0012,Crosscheck with typ. Section from DR drawings,#11,Watch out the location of the pipes. Shall match track CL
+#36,ORLW,DR,Tunnel-Track Drainage,Drainage sump under tunnel,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0024,CIV confirmed no low points,,
+#37,ORLW,SE,Structural Movement Joints,Location & design of movement joints,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI 0025,,,
+#38,ORLW,SE,Structural Movement Joints,Differential settlements & angular distortion,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0010,Info not available until end of 2025,,
+#39,ORLW,EM/ME,Stray Current Protection,Stray Current Collection Cables,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0016,Partially Responded,,Stray current collector cable and connection location only provided for tunnels. Pending to receive for station & any other relevant areas.
+#40,ORLW,EM/ME,Stray Current Protection,Connection between SCC Mat and Cables,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Raised during TRW-CIV Interface Meeting #1 (ref. document 528204-PWD00000-MOM-RR-0007),CIV pending to confirm,,
+#41,ORLW,EM,Cable crossings under tracks,Location of cable to be embedded in trackbed,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI 0026 ,Waiting for CIV to respond,,To confirm no conflicts with TRW design
+#42,ORLW,EM,Cable crossings under tracks,Number and sizing of cables,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI 0026 ,Waiting for CIV to respond,,
+#43,ORLW,EM,Cable trough,Location of E&M cable trough,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI 0026 ,Waiting for CIV to respond,,
+#44,ORLW,EM,Cable trough,Number and sizing of E&M cable trough,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI 0026 ,Waiting for CIV to respond,,
+#45,ORLW,ME,Gauges,"Static, Kinematic and Structure Gauges",TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0120/140,,,
+#46,ORLW,ME,Gauges,Gauge Widening criteria and details as per RST requirement,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Throws ,,,
+#47,ORLW,SIG/PSY,Cable crossings under tracks,Location on mainline / stabling yard,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0143,,,
+#48,ORLW,SIG/PSY,Cable crossings under tracks,Number of cable,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0143,,,
+#49,ORLW,SIG/PSY,Cable crossings under tracks,Sizing of cable,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0143,,,
+#50,ORLW,SIG,Track circuit,Locations of IRJ,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,ORL-OS-RFI-0142,,,
+#51,ORLW,SIG,SIG cable along tunnel,SIG cable routing,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Issue RFI,,,
+#52,ORLW,SIG,SIG cable along tunnel,SIG cable number & sizing,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Benjapa's email on RFI-RT-0016,,,
+#53,ORLW,SIG,SIG cable along tunnel,SIG cable containment sizing,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Benjapa's email on RFI-RT-0016,,,
+#54,ORLW,SIG,,Confirm block-out’s locations and sizing requirements for further installation of Signalling and track side equipment.  ,TRUE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,Issue RFI,,,
+#55,ORLW,PSY,PSY cable,Section Diagram,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,,ORL-OS-RFI-0122,,,ORLW Depot missing
+#56,ORLW,PSY,PSY cable,Power cable routing,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,,,Use DC sectioning for DF,,For the 750v DC from traction room (TSS)
+#57,ORLW,PSY,PSY cable,Power cable number & sizing,TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,,,Use DC sectioning for DF,,For the 750v DC from traction room (TSS)
+#58,ORLW,PSY,PSY cable,Power cable containment sizing,TRUE,FALSE,FALSE,FALSE,TRUE,TRUE,TRUE,,,Use DC sectioning for DF,,For the 750v DC from traction room (TSS)
+#59,ORLW,PSY,,Provide information of Cable lugs to Trackwork Works. ,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,
+#60,ORLW,PSY,,Inform the location point of earthing terminals for PSD. ,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,
+#61,ORLW,PSY,,Provide information and design concept of earthing and bonding system.,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,
+#62,ORLW,ME,Cable connections to the rails,Location of cable connections to rails,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Issue RFI,,,
+#63,ORLW,ME,Cable connections to the rails,Type of fixing of cables to rails,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Issue RFI,,,
+#64,ORLW,ME,Cable connections to the rails,Agreement on who to supply the connections,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Issue RFI,,,
+#65,ORLW,ME,Cable connections to the rails,Agreement on who to install the connections,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Issue RFI,,,
+#66,ORLW,RST,Wheel-Track profile,Wheel profiles,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Email_Ritthiporn_080425,,,
+#67,ORLW,RST,Wheel-Track profile,RST bogies details,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,ORL-OS-RFI-0119 / Email_Ritthiporn_080425,,,
+#68,ORLW,RST,Arrester Device / Buffer Stop,Rolling stock geometry and details,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,ORL-OS-RFI-0119 / Email_Ritthiporn_080425,,,
+#69,ORLW,RST,Arrester Device / Buffer Stop,Impact device mounted on rolling stock,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,,,,
+#70,ORLW,RST,Arrester Device / Buffer Stop,Maximum deceleration (emergency brake),FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,Email_Ritthiporn_080425,,,
+#71,ORLW,AR,Station/IVS layout (including BOH),On platform level and track level,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE,,RFI-RT-0006 / ACC / Email,Drawings partially shared,,
+#72,ORLW,SIG,Connection of point machine,Switch detection,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,ORL-OS-RFI-0141,,,
+#73,ORLW,SIG,SIG cable along tunnel,Location of point machines,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,ORL-OS-RFI-0141?,,,
+#74,ORLW,SIG,Point machine foundation & location,Cable crossing under track slab location,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,ORL-OS-RFI-0141,,,
+#75,ORLW,SIG,Point machine foundation & location,Cable crossing number & sizing,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,,ORL-OS-RFI-0141,,,
+#76,ORLW,SIG,Point machine foundation & location,Swtich Blade Drilling,FALSE,FALSE,FALSE,TRUE,TRUE,FALSE,FALSE,,,,,
+#77,ORLW,SIG,Point machine foundation & location,Fixing of point machine bases,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,FALSE,,ORL-OS-RFI-0141,,,
