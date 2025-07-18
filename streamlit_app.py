@@ -76,9 +76,9 @@ if uploaded_file is not None:
         # Add group nodes and edges based on selection
         for group in selected_groups:
             if group in df.columns:
-                # Add a central node for the group area
+                # Add a central node for the group
                 nodes[group] = {'type': 'Group'}
-                # Connect all relevant sub-topic nodes to this group node to pull them together
+                # Connect all relevant sub-topic nodes to this group node
                 for _, row in df[df[group] == True].iterrows():
                     sub_topic_id = f"{row['Sub-Topics']} ({row['ID']})"
                     if sub_topic_id in nodes:
@@ -97,15 +97,13 @@ if uploaded_file is not None:
                 elif node_type == 'Sub-Topic':
                     net.add_node(node_id, label=data.get('label', ''), size=8, color='#CBE86B', title=f"Sub-Topic: {data.get('label', '')}")
                 elif node_type == 'Group':
-                    # This node acts as the visual area/boundary
+                    # This node is a hub for the group
                     net.add_node(
                         node_id, 
                         label=node_id, 
-                        size=150,  # Much larger size
-                        shape='ellipse', # A circle shape
-                        color={'background': 'rgba(0, 100, 255, 0.2)', 'border': 'rgba(0, 120, 255, 0.5)'},
-                        font={'size': 24, 'color': 'white'},
-                        physics=False, # This node doesn't move
+                        size=20,
+                        shape='star', 
+                        color='#FF69B4', # Hot Pink
                         title=f"Group: {node_id}"
                     )
 
@@ -116,21 +114,20 @@ if uploaded_file is not None:
                 elif edge['kind'] == 'Relation':
                     net.add_edge(edge['source'], edge['target'], title=edge.get('title', ''), color='#FF4500', width=2.5, dashes=True)
                 elif edge['kind'] == 'Group':
-                    # These edges are hidden and only used for physics clustering
-                    net.add_edge(edge['source'], edge['target'], color='rgba(0, 0, 0, 0)', width=8, physics=True, length=10)
+                    # These edges are now visible and styled to show the grouping
+                    net.add_edge(edge['source'], edge['target'], color='rgba(255, 105, 180, 0.5)', width=1.5, dashes=True)
             
             # Configure physics
             net.set_options("""
             var options = {
               "physics": {
                 "forceAtlas2Based": {
-                  "gravitationalConstant": -150,
-                  "centralGravity": 0.005,
-                  "springLength": 200,
-                  "springConstant": 0.18,
-                  "avoidOverlap": 1
+                  "gravitationalConstant": -100,
+                  "centralGravity": 0.01,
+                  "springLength": 100,
+                  "springConstant": 0.08,
+                  "avoidOverlap": 0.5
                 },
-                "minVelocity": 0.75,
                 "solver": "forceAtlas2Based",
                 "stabilization": { "iterations": 1000 }
               }
